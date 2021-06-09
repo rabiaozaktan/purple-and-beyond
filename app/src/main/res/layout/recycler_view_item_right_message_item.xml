@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:background="@color/transparent">
+
+    <RelativeLayout
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="2.5dp"
+        android:layout_marginBottom="2.5dp"
+        android:background="@drawable/shape_bg_outgoing_bubble"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp">
+
+        <RelativeLayout
+            android:id="@+id/ll_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/rl_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_toolbar">
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uzun_metin"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <TextView
+
+                android:maxLines="5"
+                android:ellipsize="none"
+                android:gravity="end"
+                android:minWidth="40dp"
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginStart="10dp"
+                android:text="18:22"
+                android:textColor="@color/gray"
+                android:textSize="10sp"
+                tools:ignore="SmallSp"
+                android:layout_marginLeft="10dp" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_bottombar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_message">
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

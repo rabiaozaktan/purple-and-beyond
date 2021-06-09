@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "789810318914",
+    "project_id": "purple-and-beyond",
+    "storage_bucket": "purple-and-beyond.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789810318914:android:aca4dc12f5173e4678e7db",
+        "android_client_info": {
+          "package_name": "com.purple.social"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789810318914-ng6mlac92tepfe6pa0onbjka5gccvl9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRfneO5kQl9uYRI0vwl_CWReRpnib6gRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789810318914-ng6mlac92tepfe6pa0onbjka5gccvl9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

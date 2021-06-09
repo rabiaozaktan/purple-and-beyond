@@ -1,0 +1,18 @@
+[
+  {
+    "key": "general",
+    "text": "General"
+  },
+  {
+    "key": "sport",
+    "text": "Sport"
+  },
+  {
+    "key": "economy",
+    "text": "Economy"
+  },
+  {
+    "key": "technology",
+    "text": "Technology"
+  }
+]

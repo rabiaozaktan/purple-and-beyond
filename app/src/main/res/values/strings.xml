@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Purple and Beyond</string>
+
+    <!--    API CONFIG-->
+    <string name="base_url" translatable="false">https://api.collectapi.com/</string>
+    <string name="api_key" translatable="false">apikey 7vX8Tdj0bNVKyQfYiqK0fX:4TF9u1zQcq2AKTAMTxQfs9</string>
+
+    <string name="email_no_user">Kayıtlı hesap bulunamadı.</string>
+    <string name="email_bad_format">Email doğru değil.</string>
+    <string name="email_is_invalid">Şifreniz çok kısa. En az 6 karakterli olmalıdır.</string>
+    <string name="email__no_user_password">Email veya şifreniz yanlış.</string>
+    <string name="net_fall">İnternet bağlatınız yok. Lütfen internet bağlantınızı kontrol ediniz.</string>
+    <string name="empty_email">Email boş bırakılamaz veya geçerli değil.</string>
+    <string name="empty_password">Şifre boş bırakılamaz.</string>
+    <string name="dilalog_exit">Çıkış yapmak istediğinize emin misiniz ?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="lutfen_email_gir">Lütfen email adresinizi giriniz.</string>
+    <string name="edit_text_hit_1">* E mail</string>
+    <string name="reset_success">Sıfırlama e postası gönderildi.</string>
+    <string name="reset_fail">Girmiş olduğunuz email geçerli değildir.</string>
+    <string name="user_entry_success">Hoşgeldiniz.</string>
+    <string name="bir_hata_olustu">Bir hata oluştu.</string>
+    <string name="lutfen_bekleyin">Lütfen bekleyin…</string>
+    <string name="kayit_ol">Kayıt ol</string>
+    <string name="edit_text_hit_2">* Şifre</string>
+    <string name="edit_text_hit_3">* Şifre tekrar</string>
+    <string name="edit_text_hit_4">* Ad</string>
+    <string name="edit_text_hit_5">* Soyad</string>
+    <string name="edit_text_hit_6">* Doğum tarihi</string>
+    <string name="register_success">Kayıt başarılı</string>
+    <string name="sex">* Cinsiyet</string>
+    <string name="pass_fail">Girmiş olduğunuz şifreler eşleşmemektedir.</string>
+    <string name="email_already_use">Bu email ile hesap açılmış yoksa hesabın var mı ?</string>
+
+    <string name="empty_name">Ad boş bırakılamaz</string>
+    <string name="empty_surname">Soyad boş bırakılamaz.</string>
+    <string name="empty_birthdate">Doğum tarihi boş bırakılamaz.</string>
+    <string name="hint_enter_a_message">Lütfen Mesajınızı Yazınız...</string>
+    <string name="uzun_metin">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam cum unde odit suscipit maiores repellat eaque, fugit est dolorum, sunt voluptatum, doloribus perferendis. Reprehenderit praesentium ducimus ipsum ullam voluptatum corporis! "</string>
+    <string name="chat">Chat</string>
+
+
+    <string-array name="sex_list">
+        <item>Erkek</item>
+        <item>Kadın</item>
+    </string-array>
+
+    <string-array name="chat_list">
+        <item>All</item>
+        <item>Location</item>
+    </string-array>
+</resources>
